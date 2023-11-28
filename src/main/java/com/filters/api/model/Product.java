@@ -1,6 +1,5 @@
 package com.filters.api.model;
 
-import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.Data;
@@ -28,19 +27,3 @@ public class Product {
     private Double rating;
     private Integer categoryId;
 }
-
-//@JsonPropertyOrder({
-//        "id",
-//        "sku",
-//        "name",
-//        "description",
-//        "unitPrice",
-//        "imageUrl",
-//        "active",
-//        "unitsInStock",
-//        "dateCreated",
-//        "lastUpdated",
-//        "newProduct",
-//        "rating",
-//        "categoryId"
-//})
